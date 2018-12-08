@@ -4,8 +4,8 @@ export const personalData = [
 		content: 'Elvis Masovic',
 	},
 	{
-		label: 'Age',
-		content: '23 years',
+		label: 'D.O.B.',
+		content: '19/09/1995',
 	},
 	{
 		label: 'Email',
