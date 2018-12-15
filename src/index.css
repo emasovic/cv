@@ -8,6 +8,8 @@ body {
 
 :root {
   --max-content-width: 1170px;
+  --md-screen-size: 768px;
+  --xs-screen-size: 480px;
   --text-color: #d8d5d5;
   --main-menu-color: #4e4e50;
 }
