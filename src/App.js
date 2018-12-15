@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Loader from './components/loader/Loader';
-import NewCv from './components/cv/NewCv';
+import NewCv from './components/NewCv';
 
 import './App.css';
 
