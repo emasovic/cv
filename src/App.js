@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Loader from './components/loader/Loader';
 import Cv from './components/cv/Cv';
+import NewCv from './components/cv/NewCv';
 
 import './App.css';
 
@@ -15,7 +16,7 @@ class App extends Component {
 			return <Loader />;
 		}
 
-		return <Cv />;
+		return <NewCv />;
 	};
 	componentDidMount() {
 		setTimeout(() => {
