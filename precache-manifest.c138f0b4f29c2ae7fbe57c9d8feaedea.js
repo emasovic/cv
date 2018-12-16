@@ -1,5 +1,9 @@
 self.__precacheManifest = [
   {
+    "revision": "9f6ba499c2b1ed847b3bf67d49c5b8c1",
+    "url": "/cv/static/media/hitman5.9f6ba499.png"
+  },
+  {
     "revision": "0e4d477ee67f6d36953211606fdf365e",
     "url": "/cv/static/media/hitman4.0e4d477e.png"
   },
@@ -16,19 +20,19 @@ self.__precacheManifest = [
     "url": "/cv/static/js/runtime~main.084ac45a.js"
   },
   {
-    "revision": "f8b593b32d3c52203c9c",
-    "url": "/cv/static/js/main.f8b593b3.chunk.js"
+    "revision": "bd35f1ca7b492a565275",
+    "url": "/cv/static/js/main.bd35f1ca.chunk.js"
   },
   {
-    "revision": "0a9ec0bc714303d56815",
-    "url": "/cv/static/js/1.0a9ec0bc.chunk.js"
+    "revision": "aedd50da84cf277e813c",
+    "url": "/cv/static/js/1.aedd50da.chunk.js"
   },
   {
-    "revision": "f8b593b32d3c52203c9c",
-    "url": "/cv/static/css/main.e37d8341.chunk.css"
+    "revision": "bd35f1ca7b492a565275",
+    "url": "/cv/static/css/main.7d686414.chunk.css"
   },
   {
-    "revision": "bd0e42e25fef9e946ba146d68dcc7729",
+    "revision": "b40ade2f5be187a5c2bb7abb52cefa2c",
     "url": "/cv/index.html"
   }
 ];
