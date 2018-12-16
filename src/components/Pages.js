@@ -2,7 +2,16 @@ import React from 'react';
 import hitman1 from '../images/hitman1.png';
 import hitman2 from '../images/hitman2.png';
 import hitman3 from '../images/hitman4.png';
-import {personalData, experience, education, fEndTech, bEndTech, intro} from './info/data';
+import hitman4 from '../images/hitman5.png';
+import {
+	personalData,
+	experience,
+	education,
+	fEndTech,
+	bEndTech,
+	intro,
+	notFound,
+} from './info/data';
 import Info from './info/Info';
 
 const ABOUT = [
@@ -38,6 +47,13 @@ const HOME = [
 	},
 ];
 
+const NOTFOUND = [
+	{
+		title: 'NOT FOUND',
+		data: notFound,
+	},
+];
+
 export const About = () => {
 	return <Info renderData={ABOUT} img={hitman1} />;
 };
@@ -48,4 +64,8 @@ export const Skills = () => {
 
 export const Home = () => {
 	return <Info renderData={HOME} img={hitman3} />;
+};
+
+export const NotFound = () => {
+	return <Info renderData={NOTFOUND} img={hitman4} />;
 };

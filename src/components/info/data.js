@@ -73,3 +73,9 @@ export const bEndTech = [
 	{content: 'PostgreSQL'},
 	{content: 'CouchDB'},
 ];
+
+export const notFound = [
+	{
+		content: 'You are in the wrong place at the wrong time!',
+	},
+];

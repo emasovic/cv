@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
-import {About, Skills, Home} from './Pages';
+import {About, Skills, Home, NotFound} from './Pages';
 
 import './NewCv.css';
 
@@ -20,15 +20,16 @@ export default class NewCv extends Component {
 							<li className="nav-item">
 								<Link to="/cv/skills">skills</Link>
 							</li>
-							<li className="nav-item">
+							{/* <li className="nav-item">
 								<Link to="/cv/contact">contact</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 					<Switch>
 						<Route exact path="/cv" component={Home} />
 						<Route path="/cv/about" component={About} />
 						<Route path="/cv/skills" component={Skills} />
+						<Route component={NotFound} />
 					</Switch>
 				</div>
 			</Router>
