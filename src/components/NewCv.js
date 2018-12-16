@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 import {About, Skills, Home} from './Pages';
 
 import './NewCv.css';
@@ -25,9 +25,11 @@ export default class NewCv extends Component {
 							</li>
 						</ul>
 					</div>
-					<Route exact path="/" component={Home} />
-					<Route path="/about" component={About} />
-					<Route path="/skills" component={Skills} />
+					<Switch>
+						<Route exact path="/" component={Home} />
+						<Route path="/about" component={About} />
+						<Route path="/skills" component={Skills} />
+					</Switch>
 				</div>
 			</Router>
 		);
