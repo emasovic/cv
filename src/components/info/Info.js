@@ -17,7 +17,7 @@ export default class Info extends Component {
 									? item.data.map((item, key) => (
 											<div key={key}>
 												<span>{item.label ? item.label + ': ' : null}</span>
-												{<span style={{minHeight: 500}}>{item.content}</span>}
+												<span>{item.content}</span>
 											</div>
 									))
 									: null}

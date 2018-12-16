@@ -1,10 +1,18 @@
 export const intro = [
 	{
-		content: `
-		I'm a Front End developer with main focus on ReactJS and React-Native.
-		My experiences range from building responsive websites that work well cross-browser to building complex webapps and mobileapps.
-		I like working on projects with a team that cares about creating beautiful and usable interfaces.
-		It's important to me to build long term relationships with clients, so you can expect from me that i will always do my best to get the job done.`,
+		content: "I'm a Front End developer with main focus on ReactJS and React-Native.",
+	},
+	{
+		content:
+			'My experiences range from building responsive websites that work well cross-browser to building complex webapps and mobileapps.',
+	},
+	{
+		content:
+			'I like working on projects with a team that cares about creating beautiful and usable interfaces.',
+	},
+	{
+		content:
+			"It's important to me to build long term relationships with clients, so you can expect from me that i will always do my best to get the job done.",
 	},
 ];
 

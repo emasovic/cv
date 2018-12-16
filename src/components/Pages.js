@@ -1,7 +1,7 @@
 import React from 'react';
 import hitman1 from '../images/hitman1.png';
 import hitman2 from '../images/hitman2.png';
-import hitman3 from '../images/hitman3.png';
+import hitman3 from '../images/hitman4.png';
 import {personalData, experience, education, fEndTech, bEndTech, intro} from './info/data';
 import Info from './info/Info';
 
