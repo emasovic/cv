@@ -50,6 +50,11 @@ a {
 	font-weight: 600;
 }
 
+.nav-item-active {
+	background: #0a0a0a;
+	font-weight: 600;
+}
+
 
 @media (max-width: 480px) {
 	.navContainer {
