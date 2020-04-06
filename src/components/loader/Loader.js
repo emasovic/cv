@@ -1,18 +1,20 @@
 import React, {Component} from 'react';
 
-import './Loader.css';
+import './Loader.scss';
+
+const CLASS = 'hm-Loader';
 
 export default class Loader extends Component {
 	render() {
 		return (
-			<div className="loaderContainer">
-				<div className="logo">
-					<div className="headerTitle">Agent 95</div>
-					<div className="sub">Portfolio</div>
+			<div className={CLASS}>
+				<div className={CLASS + '-header'}>
+					<div className={CLASS + '-header-title'}>Agent em</div>
+					<div className={CLASS + '-header-sub'}>Portfolio</div>
 				</div>
-				<div className="loader">
-					<span className="h" />
-					<span className="h" />
+				<div className={CLASS + '-barcode'}>
+					<span className={CLASS + '-barcode-h'} />
+					<span className={CLASS + '-barcode-h'} />
 					<span />
 					<span />
 					<span />
@@ -29,8 +31,8 @@ export default class Loader extends Component {
 					<span />
 					<span />
 					<span />
-					<span className="h" />
-					<span className="h" />
+					<span className={CLASS + '-barcode-h'} />
+					<span className={CLASS + '-barcode-h'} />
 					<span />
 					<span />
 					<span />
@@ -43,8 +45,8 @@ export default class Loader extends Component {
 					<span />
 					<span />
 					<span />
-					<span className="h" />
-					<span className="h" />
+					<span className={CLASS + '-barcode-h'} />
+					<span className={CLASS + '-barcode-h'} />
 				</div>
 			</div>
 		);

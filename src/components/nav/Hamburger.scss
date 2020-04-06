@@ -1,0 +1,62 @@
+@import '../../styles//variables.scss';
+
+.hm-Hamburger {
+    z-index: 5;
+    width: 100%;
+    display: none;
+
+    @media (max-width: $break-width-l) {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px 0;
+    }
+    
+
+    > button {
+        z-index: 1;
+        background: $dred;
+        border: 1px solid;
+        padding: 8px;
+        outline: none;
+    }
+
+    &-nav {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: fixed;
+        background: $black;
+        animation: nav-animate 2s;
+
+        .hm-Nav {
+            height: 100%;    
+
+            @media (max-width: $break-width-l) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            &-item {
+                @media (max-width: $break-width-l) {
+                    min-width: 400px;
+                }
+
+                @media (max-width: $break-width-s) {
+                    min-width: 300px;
+                }
+            }
+        }
+
+        @keyframes nav-animate {
+            50% {
+                background: $dred;
+            }
+
+            100% {
+              background: $black;
+            }
+        }
+    }
+}

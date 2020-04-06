@@ -1,32 +1,30 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect} from 'react';
+
 import Loader from './components/loader/Loader';
-import NewCv from './components/NewCv';
+import Main from './components/Main';
 
-import './App.css';
+import './App.scss';
 
-class App extends Component {
-	state = {
-		accessGranted: false
-	};
-	displayRenderer = () => {
-		const {accessGranted} = this.state;
+const CLASS = 'hm-App';
 
-		if (!accessGranted) {
-			return <Loader />;
-		}
+export default function App() {
+	const [accessGranted, setAccessGranted] = useState(false);
 
-		return <NewCv />;
-	};
-	componentDidMount() {
+	useEffect(() => {
 		setTimeout(() => {
-			this.setState({
-				accessGranted: true
-			});
-		}, 5000);
-	}
-	render() {
-		return <div className="App">{this.displayRenderer()}</div>;
-	}
-}
+			setAccessGranted(true);
+		}, 4000);
+	}, [accessGranted]);
 
-export default App;
+	return (
+		<div className={CLASS}>
+			{accessGranted ? (
+				<div className={CLASS + '-main'}>
+					<Main />
+				</div>
+			) : (
+				<Loader />
+			)}
+		</div>
+	);
+}

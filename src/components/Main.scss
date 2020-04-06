@@ -1,0 +1,19 @@
+@import '../styles/variables.scss';
+
+.hm-Main {
+	display: flex;
+    align-items: center;
+    max-width: 1244px;
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+	justify-content: center;
+    z-index: 1;
+    padding: 0 20px;
+
+    @media (max-width: $break-width-l) {
+        flex-direction: column;
+        height: 100%;
+        // height: auto;
+    }
+}

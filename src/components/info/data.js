@@ -1,18 +1,10 @@
+import React from 'react';
+
 export const intro = [
 	{
-		content: "I'm a Front End developer with main focus on ReactJS and React-Native.",
-	},
-	{
-		content:
-			'My experiences range from building responsive websites that work well cross-browser to building complex webapps and mobileapps.',
-	},
-	{
-		content:
-			'I like working on projects with a team that cares about creating beautiful and usable interfaces.',
-	},
-	{
-		content:
-			"It's important to me to build long term relationships with clients, so you can expect from me that i will always do my best to get the job done.",
+		content: `I'm a Front End developer with main focus on ReactJS. My experiences range from building responsive websites that work well cross-browser to building complex webapps.
+				I like working on projects with a team that cares about creating beautiful and usable interfaces.
+				It's important to me to build long term relationships with clients, so you can expect from me that i will always do my best to get the job done.`,
 	},
 ];
 
@@ -27,7 +19,11 @@ export const personalData = [
 	},
 	{
 		label: 'Email',
-		content: 'emasovic@hotmail.com',
+		content: (
+			<a href="mailto:emasovic@hotmail.com?Subject=Hello%20again" target="_top">
+				emasovic@hotmail.com
+			</a>
+		),
 	},
 	{
 		label: 'Last seen',

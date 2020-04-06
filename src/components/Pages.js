@@ -1,8 +1,4 @@
 import React from 'react';
-import hitman1 from '../images/hitman1.png';
-import hitman2 from '../images/hitman2.png';
-import hitman3 from '../images/hitman4.png';
-import hitman4 from '../images/hitman5.png';
 import {
 	personalData,
 	experience,
@@ -55,17 +51,17 @@ const NOTFOUND = [
 ];
 
 export const About = () => {
-	return <Info renderData={ABOUT} img={hitman1} />;
+	return <Info renderData={ABOUT} />;
 };
 
 export const Skills = () => {
-	return <Info renderData={SKILLS} img={hitman2} />;
+	return <Info renderData={SKILLS} />;
 };
 
 export const Home = () => {
-	return <Info renderData={HOME} img={hitman3} />;
+	return <Info renderData={HOME} />;
 };
 
 export const NotFound = () => {
-	return <Info renderData={NOTFOUND} img={hitman4} />;
+	return <Info renderData={NOTFOUND} />;
 };

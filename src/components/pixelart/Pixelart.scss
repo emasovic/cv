@@ -1,0 +1,69 @@
+@import '../../styles/variables.scss';
+
+.hm-Pixelart {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin: 0 20px;
+    min-height: 500px;
+    
+    @media (max-width: $break-width-l) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: auto;
+        margin: 0;
+    }
+
+    &-frame {
+        background-color:#ddc;
+        border: solid 40px #eee;
+        border-bottom-color: $dgray;
+        border-left-color: $dred;
+        border-radius: 2px;
+        border-right-color: $dred;
+        border-top-color: $dgray;
+        box-shadow: 0 0 5px 0 $black inset, 0 5px 10px 5px $black;
+        margin: 5px;
+        display: flex;
+        height: 200px;
+        padding: 10px;
+        position: relative;
+        text-align: center;
+
+        @media (max-width: $break-width-s) {
+            border: solid 20px #eee;
+            border-bottom-color: $dgray;
+            border-left-color: $dred;
+            border-right-color: $dred;
+            border-top-color: $dgray;
+            height: 250px;
+        }
+
+        &:before {
+            border-radius: 2px;
+            bottom:- 2vmin;
+            box-shadow: 0 2px 5px 0 $black inset;
+            content: "";
+            left: -2vmin;
+            position: absolute;
+            right: -2vmin;
+            top: -2vmin;
+        }
+
+        &:after {
+            border-radius: 2px;
+            bottom: -2.5vmin;
+            box-shadow: 0 2px 5px 0 $black;
+            content: "";
+            left: -2.5vmin;
+            position: absolute;
+            right: -2.5vmin;
+            top: -2.5vmin;
+        }
+
+        > img {
+             width: 200px;
+        }
+    }
+}

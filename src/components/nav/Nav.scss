@@ -1,0 +1,28 @@
+@import '../../styles//variables.scss';
+
+.hm-Nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    @media (max-width: $break-width-l) {
+        display: none;
+    }
+
+    &-item {
+        min-width: 200px;
+        margin-bottom: 10px;
+        height: 30px;
+        background: $gray;
+        text-decoration: none;
+        color: #fff;
+        font-size: 22px;
+        padding: 10px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+        &.active {
+            background: $red;
+        }
+    }
+}

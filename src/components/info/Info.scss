@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+.hm-Info {
+	display: flex;
+	height: 100%;
+	margin: 0 20px;
+	width: 100%;
+
+	@media (max-width: $break-width-l) {
+		margin: 0;
+		min-height: 500px;
+		width: 100%;
+	}
+	
+	&-desc {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		letter-spacing: 2px;
+		color: #fff;
+		text-align: justify;
+
+		a {
+			color: #fff;
+		}
+
+		> span {
+			padding: 10px;
+			font-size: 22px;
+			background: $red;
+			letter-spacing: 2px;
+			margin: 10px 0;
+			color: #fff;
+
+			&:first-child {
+				margin-top: 0;
+			}
+		}
+	}
+}
