@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "7ff716b060bd615b5de7",
-    "url": "/cv/static/css/main.a478bb7c.chunk.css"
+    "revision": "3ed32eae840c0bfbe4b1",
+    "url": "/cv/static/css/main.e3ef4b7d.chunk.css"
   },
   {
-    "revision": "7ff716b060bd615b5de7",
-    "url": "/cv/static/js/main.7ff716b0.chunk.js"
+    "revision": "3ed32eae840c0bfbe4b1",
+    "url": "/cv/static/js/main.3ed32eae.chunk.js"
   },
   {
-    "revision": "d8002bb75f9b112a26c5",
-    "url": "/cv/static/js/1.d8002bb7.chunk.js"
+    "revision": "e109d8d9c19967f43df2",
+    "url": "/cv/static/js/1.e109d8d9.chunk.js"
   },
   {
     "revision": "084ac45aee39707f976e",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/cv/static/media/beretta.96fbd9a7.jpg"
   },
   {
-    "revision": "afe15be302a23c18a0ce0ae68fa3829a",
+    "revision": "b97a3350c0774a47ad32ce9525a6ac96",
     "url": "/cv/index.html"
   }
 ];
